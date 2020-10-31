@@ -1,0 +1,180 @@
+@import
+"https://fonts.googleapis.com/css?family=Black+And+White+Picture|Bungee+Shade|Keania+One|Kumar+One|Roboto|ZCOOL+XiaoWei&display=swap";
+
+#top{position: relative;}
+
+#header
+{
+  top: 0;
+  position: fixed;
+  padding: 0px 40px;
+  width: 100%;
+  font-family: 'Keania One', cursive;
+  font-size: 25px;
+  float: left;
+}
+
+#header-img
+{
+  width: 180px;
+  height: auto;
+  float: left;
+  position: fixed;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 500px) 
+{
+  .logo {
+    width:100px;
+    margin: 10px;
+    padding: 5px;
+  }
+}
+
+#nav-bar
+{
+  font-weight: 100;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  position: fixed;
+}
+
+ul
+{
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+}
+
+li
+{
+  padding-left: 20px;
+  margin-top: 20px;
+}
+
+a
+{
+  color: red;
+  text-decoration: none;
+}
+
+.container
+{
+  padding: 100px;
+}
+
+#intro
+{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+h1
+{
+  font-family: 'Black And White Picture', sans-serif;
+  font-size: 50px;
+}
+
+p
+{
+  font-family: 'ZCOOL XiaoWei', serif;
+  margin: 0px;
+  font-size: 21px;
+}
+
+.button-style
+{
+  margin: 30px 0;
+  padding: 0 20px;
+  height: 20px;
+  font-size: 1em;
+  font-weight: 800;
+  text-transform: uppercase;
+  border: 3px blue solid;
+  border-radius: 5px;
+  background: transparent;
+  cursor: pointer;
+}
+
+.button-style:hover
+{
+  background-color: yellow;
+  transition: background-color 1s;
+}
+
+#eg-vid
+{
+  margin-top: 10px;
+  padding: 10px;
+}
+
+#video
+{
+  max-width: 640px;
+  width: 100%;
+}
+
+h2
+{
+  font-family: 'Kumar One',;
+  color: red;
+}
+
+b
+{
+  font-family: 'Roboto',;
+}
+
+table
+{
+  width: 100%;
+  border: collapse;
+  text-align: center;
+  margin: 30px auto;
+}
+
+tr:nth-child(odd)
+{
+  background-color: #f2f2f2;
+}
+
+th, td
+{
+  padding: 10px;
+}
+
+#contact
+{
+  margin-top: 40px;
+  text-align: center;
+}
+
+#email
+{
+  border: 1px solid black;
+  width: 40%;
+  height: 20px;
+  padding: 5px;
+  border-radius: 8px;
+}
+
+.submition
+{
+  width: 90px;
+  height: 30px;
+  font-size: 15px;
+  font-weight: bold;
+  color: red;
+  background-color: black;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 3px;
+}
